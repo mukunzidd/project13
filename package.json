@@ -1,0 +1,37 @@
+{
+  "name": "project13",
+  "version": "1.0.0",
+  "description": "Project 13 nodejs app demo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node server/index.js",
+    "lint": "eslint server --fix",
+    "test": "mocha --require @babel/register server/**/**spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mukunzidd/project13.git"
+  },
+  "author": "Cycle13",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mukunzidd/project13/issues"
+  },
+  "homepage": "https://github.com/mukunzidd/project13#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/node": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/register": "^7.7.0",
+    "chai": "^4.2.0",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "mocha": "^6.2.2",
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
