@@ -3,5 +3,8 @@ language: node_js
 node_js:
   - 13.x
 
+install:
+  - yarn install
+
 script:
   - yarn test

@@ -4,7 +4,9 @@
   "description": "Project 13 nodejs app demo",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --exec babel-node server/index.js",
+    "start": "node dist/index.js",
+    "build": "babel server -d dist",
+    "dev": "node --exec babel-node server/index.js",
     "lint": "eslint server --fix",
     "test": "mocha --require @babel/register server/**/**spec.js"
   },
@@ -19,6 +21,7 @@
   },
   "homepage": "https://github.com/mukunzidd/project13#readme",
   "devDependencies": {
+    "@babel/cli": "^7.7.0",
     "@babel/core": "^7.7.2",
     "@babel/node": "^7.7.0",
     "@babel/preset-env": "^7.7.1",
