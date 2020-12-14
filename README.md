@@ -1,6 +1,5 @@
 # project13
 
-[![Build Status](https://travis-ci.com/mukunzidd/project13.svg?branch=develop)](https://travis-ci.com/mukunzidd/project13)
-![A Build](https://github.com/mukunzidd/project13/workflows/.github/workflows/node.js.yml/badge.svg)
+![Build](https://github.com/mukunzidd/project13/workflows/Node.js%20CI/badge.svg)
 
 Add a nice description
